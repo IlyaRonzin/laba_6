@@ -23,7 +23,7 @@ namespace laba_6
                     break;
             }
         }
-
+        //Задание 1
         static void HandleTask1()
         {
             var barsik = new MeowTracker(new Cat("Барсик"));
@@ -59,7 +59,7 @@ namespace laba_6
                 Console.WriteLine($"{tracker.GetName()} meowed {tracker.GetMeowCount()} times.");
             }
         }
-
+        //Задание 2
         static void HandleTask2()
         {
             var fraction1 = new Fraction(1, 4);
@@ -71,7 +71,7 @@ namespace laba_6
             Console.WriteLine($"{fraction1} * {fraction2} = {fraction1.Multiply(fraction2)}");
             Console.WriteLine($"{fraction1} / {fraction2} = {fraction1.Divide(fraction2)}");
 
-            var result = fraction1.Add(fraction2).Divide(fraction3).Subtract(5); 
+            var result = fraction1.Add(fraction2).Divide(fraction3).Minus(5);
             Console.WriteLine($"Result of chained operations: {result}");
 
             var clonedFraction = (Fraction)fraction1.Clone();
