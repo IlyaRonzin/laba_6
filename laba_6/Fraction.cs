@@ -53,7 +53,7 @@ namespace laba_6
 
         public Fraction Add(Fraction other) => this + other;
 
-        public Fraction Subtract(Fraction other) => this - other;
+        public Fraction Minus(Fraction other) => this - other;
 
         public Fraction Multiply(Fraction other) => this * other;
 
@@ -61,7 +61,7 @@ namespace laba_6
 
         public Fraction Add(int number) => this + number;
 
-        public Fraction Subtract(int number) => this - number;
+        public Fraction Minus(int number) => this - number;
 
         public Fraction Multiply(int number) => this * number;
 

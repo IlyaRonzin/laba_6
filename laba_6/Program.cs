@@ -67,11 +67,11 @@ namespace laba_6
             var fraction3 = new Fraction(5, 4);
 
             Console.WriteLine($"{fraction1} + {fraction2} = {fraction1.Add(fraction2)}");
-            Console.WriteLine($"{fraction1} - {fraction2} = {fraction1.Subtract(fraction2)}");
+            Console.WriteLine($"{fraction1} - {fraction2} = {fraction1.Minus(fraction2)}");
             Console.WriteLine($"{fraction1} * {fraction2} = {fraction1.Multiply(fraction2)}");
             Console.WriteLine($"{fraction1} / {fraction2} = {fraction1.Divide(fraction2)}");
 
-            var result = fraction1.Add(fraction2).Divide(fraction3).Subtract(5);
+            var result = fraction1.Add(fraction2).Divide(fraction3).Subtract(5); 
             Console.WriteLine($"Result of chained operations: {result}");
 
             var clonedFraction = (Fraction)fraction1.Clone();
